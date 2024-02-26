@@ -12,4 +12,5 @@ contract DeanNFT is ERC721URIStorage, Ownable {
         _mint(_to, _tokenId);
         _setTokenURI(_tokenId, _uri);
     }
+
 }
